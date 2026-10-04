@@ -1,0 +1,13 @@
+:root{--bg:#F4F2ED;--ink:#111317;--muted:#5B6670;--accent:#D7263D;--rule:#d9d4c7}
+@media (prefers-color-scheme:dark){:root{--bg:#111317;--ink:#F4F2ED;--muted:#a3adb5;--rule:#2a2e35}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+main{max-width:680px;margin:0 auto;padding:56px 20px 80px}
+h1{font-size:2rem;line-height:1.15;margin:0 0 8px;letter-spacing:-.01em}
+h2{font-size:1.1rem;margin:32px 0 6px}
+p,li{color:var(--ink)}
+.tag{display:inline-block;font:600 .75rem/1 ui-monospace,"IBM Plex Mono",monospace;letter-spacing:.08em;color:var(--accent);border:1px solid var(--accent);padding:6px 8px;border-radius:4px;margin-bottom:20px}
+.muted{color:var(--muted)}
+nav{margin-top:40px;padding-top:16px;border-top:1px solid var(--rule)}
+nav a{color:var(--ink);margin-right:18px}
+a{color:var(--accent)}
